@@ -1,0 +1,128 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+.navbar__start {
+  color: rgb(30 48 243);
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar__items ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar__items ul li {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0 0 0 / 55%);
+}
+.navbar__itemsbox {
+  width: 56px;
+  height: 40px;
+  padding: 4px 12px;
+  border: 0.01px rgb(66, 66, 66, 0.3) solid;
+  display: none;
+  border-radius: 5px;
+}
+.navbar__itemsbox i {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(66, 66, 66, 0.9);
+}
+@media only screen and (max-width: 990px) {
+  .navbar__items {
+    display: none;
+  }
+  .navbar__itemsbox {
+    display: flex;
+  }
+}
+.hero {
+  padding: 48px 0;
+}
+.sides {
+  display: flex;
+  justify-content: center;
+}
+.leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 24px;
+  max-width: 530px;
+}
+.leftside__heading {
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  font-size: 12px;
+  border-radius: 5px;
+  color: white;
+  max-width: 223px;
+  margin-bottom: 24px;
+  padding: 4px 8px;
+}
+.leftside__ican {
+  color: #6c757d;
+  font-size: 28px;
+  font-weight: 100;
+}
+.leftside__get {
+  font-size: 64px;
+  background: #1e30f3;
+  background: linear-gradient(to right, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 48px;
+  font-weight: bold;
+}
+#resumebutton {
+  background: blue;
+  color: white;
+  border: 1px white;
+  width: 160px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 16px 48px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+#projectsbutton {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px rgb(0, 0, 0) solid;
+  width: 160px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 16px 48px;
+  font-weight: bold;
+}
+
+.right__gradient {
+  background: linear-gradient(to right, #1e30f3 0%, #e21e80 100%);
+  border-radius: 5vb;
+
+  width: 100%;
+  height: 100%;
+}
+
+.right__pic {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.right__pic img {
+  width: 100%;
+  height: 100%;
+}
